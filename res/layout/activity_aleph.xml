@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/aleph_top_bar"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentTop="true"
+        android:translationY="-45dp"
+        android:background="@color/aleph_top_bar">
+        
+        <Button
+            android:id="@+id/aleph_back_arrow"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="12dp"
+            android:background="@drawable/btn_left_arrow"/>
+        
+    </RelativeLayout>
+
+    <com.tianlunte.pulltoexpandlistview.view.AlephListView
+        android:id="@+id/aleph_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </com.tianlunte.pulltoexpandlistview.view.AlephListView>
+
+    <RelativeLayout
+        android:id="@+id/aleph_btm_bar"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:translationY="45dp"
+        android:background="@color/aleph_btm_bar">
+    </RelativeLayout>
+
+</RelativeLayout>

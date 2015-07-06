@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="aleph_list_color">#e9e1e6</color>
+    <color name="text_aleph_1">#2a4852</color>
+    <color name="text_aleph_2">#a2aaad</color>
+
+    <color name="aleph_top_bar">#4d9cc0</color>
+    <color name="aleph_btm_bar">#050505</color>
+</resources>

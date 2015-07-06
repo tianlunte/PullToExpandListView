@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/aleph_list_color">
+
+    <ImageView
+        android:id="@+id/aleph_item_expand_img"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:layout_centerVertical="true"/>
+
+    <RelativeLayout
+        android:id="@+id/aleph_item_expand_rel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="6dp">
+        <TextView
+            android:id="@+id/aleph_item_expand_name"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="5dp"
+            android:textSize="25sp"
+            android:textColor="@color/text_aleph_1"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignBottom="@id/aleph_item_collapse_name"
+            android:layout_marginBottom="2dp"
+            android:layout_marginRight="25dp"
+            android:gravity="right"
+            android:text="98m"
+            android:textColor="@color/text_aleph_2"
+            android:textSize="13sp"/>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/aleph_item_expand_txt_people"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/aleph_item_expand_rel"
+        android:layout_alignLeft="@id/aleph_item_expand_rel"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="15dp"
+        android:textColor="@color/text_aleph_2"
+        android:textSize="13sp"
+        android:text="16 out 75 people"/>
+
+</RelativeLayout>
